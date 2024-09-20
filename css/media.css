@@ -1,0 +1,590 @@
+@media screen and (max-width: 1700px) {
+  .banner-content {
+    padding: 0 80px;
+  }
+  .banner-home__content[data-step="2"] .banner-wrapper {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+@media screen and (max-height: 800px) {
+  .banner-content__images .banner-image__content {
+    left: -30px;
+  }
+  .banner-content__images .banner-image__content img {
+    height: 600px;
+  }
+  .banner-content__images .banner-image__content:nth-child(2) img {
+    height: 550px;
+  }
+  .banner-content__images .banner-image__content:nth-child(2) {
+    right: -20px;
+  }
+  .banner-wrapper {
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+@media screen and (max-height: 900px) {
+  .game-item__image img {
+    height: 300px;
+    width: 266px;
+  }
+  .game-item {
+    padding: 30px;
+  }
+  .banner-home__content[data-step="2"] .banner-wrapper {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .banner-content {
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner-align {
+    padding-top: 30px;
+    height: auto;
+    padding-bottom: 0;
+  }
+  .banner .btn2 {
+    white-space: nowrap;
+  }
+  .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner__home-page {
+    width: 100%;
+  }
+  .banner__home-page {
+    height: auto;
+    min-height: 400px;
+  }
+  .banner__home-page .back {
+    min-height: 400px;
+  }
+  .banner-item {
+    height: 100%;
+  }
+  .banner-content__desc {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .banner-item {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .banner-home__content[data-step="2"] .banner-wrapper {
+    padding: 0;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+  .banner-home__content[data-step="2"] .game-item__image img {
+    width: 171px;
+    height: 200px;
+  }
+  .banner-home__content[data-step="2"] .game-item {
+    padding: 22px 27px;
+  }
+  .banner-home__content[data-step="2"] .game-item__title {
+    margin-top: 10px;
+  }
+  .banner-home__content[data-step="2"] .banner-btns {
+    margin-top: 30px;
+  }
+  .banner-home__content[data-step="2"] .game-item__title {
+    font-size: 20px;
+  }
+  .banner-home__content[data-step="2"] .banner-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 60px 15px;
+    max-width: 100%;
+  }
+  .banner-home__content[data-step="2"] .banner-wrapper .banner-top {
+    width: 100%;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .swiper-button-next:before, .swiper-button-prev:before {
+    top: 15px;
+  }
+  .swiper-button-next:before {
+    left: 15px;
+  }
+  .swiper-button-next:after {
+    left: -15px;
+  }
+  .swiper-button-prev:before {
+    right: 15px;
+  }
+  .swiper-button-prev:after {
+    right: -15px;
+  }
+  .swiper-button-next:hover:before, .swiper-button-prev:hover:before {
+    -webkit-transform: translateX(7px) rotate(45deg);
+        -ms-transform: translateX(7px) rotate(45deg);
+            transform: translateX(7px) rotate(45deg);
+  }
+  .swiper-button-prev:hover:before {
+    -webkit-transform: translateX(-8px) rotate(45deg);
+        -ms-transform: translateX(-8px) rotate(45deg);
+            transform: translateX(-8px) rotate(45deg);
+  }
+  .swiper-button-prev:hover:after {
+    -webkit-transform: translateX(-15px);
+        -ms-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  .swiper-button-next:after, .swiper-button-prev:after {
+    width: 45px;
+  }
+  .banner-home__content[data-step="3"] .banner-content__images .banner-image__content:nth-child(2) {
+    display: none;
+  }
+  .banner-home__content[data-step="3"] .banner-content__images .banner-image__content:nth-child(1) {
+    display: block;
+    left: 20%;
+  }
+  .banner-home__content[data-step="3"] .banner-content__images .banner-image__content:nth-child(1) img {
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .banner-home__content[data-step="3"] .h1 {
+    font-size: 48px;
+    -webkit-text-stroke: 0.7px #FFF;
+  }
+  .banner-home__content[data-step="3"] .text {
+    font-size: 18px;
+  }
+  .banner-content__images .banner-image__content:nth-child(1) {
+    display: none;
+  }
+  .banner-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    padding: 20px 15px 18px 15px;
+  }
+  .banner-music {
+    right: 10px;
+    top: 26px;
+  }
+  .banner-content__images .banner-image__content:nth-child(2) {
+    right: 28%;
+  }
+  .banner-content__images .banner-image__content:nth-child(2) img {
+    height: 65vh;
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+}
+@media screen and (max-width: 991px) {
+  .swiper-pagination {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner .banner-btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 0;
+    width: 100%;
+  }
+  .banner .banner-btns .btn:first-child {
+    margin-right: 0;
+  }
+  .banner .banner-btns .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 16px 100px;
+  }
+  .banner .banner-btns .btn:first-child {
+    margin-bottom: 0;
+  }
+  .banner-align .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .banner-content .text {
+    max-width: 100%;
+  }
+  .banner-content {
+    margin-top: 30px;
+  }
+  .banner-image__block {
+    position: absolute;
+    top: 0;
+    width: 70vh;
+    right: -20%;
+  }
+  .banner-align {
+    padding-bottom: 20px;
+  }
+  .banner-image__block:before {
+    bottom: 46px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .banner-music {
+    top: 30px;
+  }
+  .banner-music {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+  }
+  .banner-music.paused:before {
+    top: 14px;
+    left: -3px;
+    width: 36px;
+    height: 1px;
+  }
+  .banner-content__images .banner-image__content:nth-child(2) img {
+    height: 460px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .subtitle {
+    margin-bottom: 10px;
+    max-width: 260px;
+    padding: 6px 8px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .text {
+    font-size: 12px;
+    letter-spacing: 2.4px;
+  }
+  .banner-top {
+    padding: 0 9px;
+  }
+  .banner-wrapper .h1 {
+    margin-bottom: 10px;
+    -webkit-text-stroke: 0.7px #FFF;
+  }
+  .row > * {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .header-account {
+    padding: 10px;
+  }
+  .banner-image img {
+    -o-object-position: right;
+       object-position: right;
+  }
+  .banner-image picture:after {
+    left: -83%;
+    bottom: -8%;
+  }
+  .banner-content .btn {
+    width: 100%;
+  }
+  .banner-btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner-wrapp .banner-btns .btn:first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .banner .bg {
+    background-position: -1100px 0px;
+  }
+  .btn, .btn-2 {
+    width: 100%;
+  }
+  .banner-content {
+    padding: 0;
+  }
+  .banner-home__content[data-step="2"] .banner-wrapper {
+    padding: 20px 15px 32px 15px;
+  }
+  .banner-home__content[data-step="2"] .h1 {
+    max-width: 90%;
+  }
+  .banner-home__content[data-step="2"] .swiper-navigation .swiper-button-next {
+    margin: 0 !important;
+    right: 0;
+  }
+  .row-title > * {
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .banner-content__images .banner-image__content:nth-child(2) img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 360px;
+  }
+  .banner-content__images .banner-image__content:nth-child(2) {
+    right: 0;
+    left: -28%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .banner-content > * {
+    margin-bottom: 30px;
+  }
+  .banner-content {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .banner-content h1 {
+    padding: 0 8px;
+  }
+  .banner-content .text {
+    padding: 0 8px;
+  }
+  .banner-content {
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  .banner-image__block {
+    right: -45%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .banner-content__images .banner-image__content:nth-child(2) img {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner-home__content[data-step="2"] .game-item__image img {
+    width: 160px;
+  }
+  .banner-home__content[data-step="3"] .banner-content__images .banner-image__content:nth-child(1) {
+    left: 3%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .banner-content h1 {
+    max-width: 100%;
+  }
+  .banner-content h1 br {
+    display: none;
+  }
+}
+.banner-wrapper .subtitle {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(100px);
+      -ms-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: opacity 1.3s, visibility 1.3s, -webkit-transform 1.3s;
+  transition: opacity 1.3s, visibility 1.3s, -webkit-transform 1.3s;
+  transition: opacity 1.3s, visibility 1.3s, transform 1.3s;
+  transition: opacity 1.3s, visibility 1.3s, transform 1.3s, -webkit-transform 1.3s;
+}
+
+.loaded .banner-wrapper .subtitle {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.banner-wrapper .h1 {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(150px);
+      -ms-transform: translateY(150px);
+          transform: translateY(150px);
+  -webkit-transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s, -webkit-transform 1.5s;
+}
+
+.loaded .banner-wrapper .h1 {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.banner-wrapper .text {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(200px);
+      -ms-transform: translateY(200px);
+          transform: translateY(200px);
+  -webkit-transition: opacity 1.7s, visibility 1.7s, -webkit-transform 1.7s;
+  transition: opacity 1.7s, visibility 1.7s, -webkit-transform 1.7s;
+  transition: opacity 1.7s, visibility 1.7s, transform 1.7s;
+  transition: opacity 1.7s, visibility 1.7s, transform 1.7s, -webkit-transform 1.7s;
+}
+
+.loaded .banner-wrapper .text {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.banner-wrapper .banner-btns {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(250px);
+      -ms-transform: translateY(250px);
+          transform: translateY(250px);
+  -webkit-transition: opacity 1.9s, visibility 1.9s, -webkit-transform 1.9s;
+  transition: opacity 1.9s, visibility 1.9s, -webkit-transform 1.9s;
+  transition: opacity 1.9s, visibility 1.9s, transform 1.9s;
+  transition: opacity 1.9s, visibility 1.9s, transform 1.9s, -webkit-transform 1.9s;
+}
+
+.loaded .banner-wrapper .banner-btns {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.banner-music {
+  opacity: 0;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
+.loaded .banner-music {
+  opacity: 1;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: opacity 1.9s, visibility 1.9s, -webkit-transform 1.9s;
+  transition: opacity 1.9s, visibility 1.9s, -webkit-transform 1.9s;
+  transition: opacity 1.9s, visibility 1.9s, transform 1.9s;
+  transition: opacity 1.9s, visibility 1.9s, transform 1.9s, -webkit-transform 1.9s;
+}
+
+.banner-home__content .banner-content__images {
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: -webkit-transform 2.3s;
+  transition: -webkit-transform 2.3s;
+  transition: transform 2.3s;
+  transition: transform 2.3s, -webkit-transform 2.3s;
+}
+
+.loaded .banner-home__content .banner-content__images {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.banner2 .h1 {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(200px);
+      -ms-transform: translateY(200px);
+          transform: translateY(200px);
+  -webkit-transition: opacity 1.7s, visibility 1.7s, -webkit-transform 1.7s;
+  transition: opacity 1.7s, visibility 1.7s, -webkit-transform 1.7s;
+  transition: opacity 1.7s, visibility 1.7s, transform 1.7s;
+  transition: opacity 1.7s, visibility 1.7s, transform 1.7s, -webkit-transform 1.7s;
+}
+
+.loaded .banner2 .h1 {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.loaded .banner-wrapp h1, .loaded .banner-wrapp .h6 {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s, -webkit-transform 1.5s;
+}
+
+.banner-wrapp .banner-btns {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(300px);
+      -ms-transform: translateY(300px);
+          transform: translateY(300px);
+  -webkit-transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s, -webkit-transform 1.5s;
+}
+
+.loaded .banner-wrapp .banner-btns {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.banner-home__back {
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  -webkit-transition: clip-path 1s cubic-bezier(0.35, 0.5, 0.64, 0.95);
+  -webkit-transition: -webkit-clip-path 1s cubic-bezier(0.35, 0.5, 0.64, 0.95);
+  transition: -webkit-clip-path 1s cubic-bezier(0.35, 0.5, 0.64, 0.95);
+  transition: clip-path 1s cubic-bezier(0.35, 0.5, 0.64, 0.95);
+  transition: clip-path 1s cubic-bezier(0.35, 0.5, 0.64, 0.95), -webkit-clip-path 1s cubic-bezier(0.35, 0.5, 0.64, 0.95);
+}
+
+.loaded .banner-home__back {
+  -webkit-clip-path: ppolygon(0 100%, 100% 100%, 100% 0, 0 0);
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+}
