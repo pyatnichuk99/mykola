@@ -182,6 +182,7 @@
   .banner-home__content[data-step="3"] .h1 {
     font-size: 48px;
     -webkit-text-stroke: 0.7px #FFF;
+    text-shadow: 0px 3px 8px rgba(255, 213, 54, 0.50);
   }
   .banner-home__content[data-step="3"] .text {
     font-size: 18px;
@@ -345,6 +346,7 @@
   }
   .banner-home__content[data-step="2"] .h1 {
     max-width: 90%;
+    text-shadow: 0px 3px 8px rgba(255, 213, 54, 0.50);
   }
   .banner-home__content[data-step="2"] .swiper-navigation .swiper-button-next {
     margin: 0 !important;
@@ -376,6 +378,7 @@
   }
   .banner-content h1 {
     padding: 0 8px;
+    text-shadow: 0px 3px 8px rgba(255, 213, 54, 0.50);
   }
   .banner-content .text {
     padding: 0 8px;
